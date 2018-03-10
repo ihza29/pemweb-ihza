@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-image:url('bg.jpg')">
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Form</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dummy.html">Hasil</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" align="center">FORM DATA ANAK KONTRAKAN</h3>
+              <br>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9">
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <label for="inputnama" class="col-sm-2 control-label">Nama</label>
+                        <div class="col-sm-9">
+                          <input type="text" class="form-control" id="inputnama" placeholder="Nama">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputTTL" class="col-sm-2 control-label">TTL</label>
+                        <div class="col-6">
+                          <input type="text" class="form-control" placeholder="Kota">
+                        </div>
+                        <br>
+                        <div class="col-6">
+                            <input type="date" class="form-control" placeholder="DD-MM-YYYY">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-9">
+                          <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com">
+                        </div>
+                      </div>
+
+                      <div style="margin-left: 15px">
+                        <p>Gender</p>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="Radios1" id="Radios1">
+                          <label class="form-check-label" for="Radios1">
+                            Male
+                          </label>
+                          <br>
+                          <input class="form-check-input" type="radio" name="Radios2" id="Radios2">
+                          <label class="form-check-label" for="Radios2">
+                            Female
+                          </label>
+                        </div>
+                        <br>
+                      </div>
+
+                      <div style="margin-left: 15px">
+                        <form class="form-inline">
+                          <label class="pilihan" for="inlineFormCustomSelectPref">Tingkat Pendidikan</label>
+                          <br>
+                          <select class="custom-select col-sm-9 pilihan" id="inlineFormCustomSelectPref">
+                            <option selected>Pilih...</option>
+                            <option value="1">SD</option>
+                            <option value="2">SMP</option>
+                            <option value="3">SMA</option>
+                            <option value="4">Mahasiswa</option>
+                            <option value="5">Kerja</option>
+                          </select>
+                        </form>
+                      </div>
+
+                      <br>
+                      <div style="margin-left: 15px">
+                        <div class="form-group">
+                          <label for="Textarea1">Motivasi Hidup</label>
+                          <textarea class="col-sm-9 form-control" id="Textarea1" rows="2"></textarea>
+                        </div>
+                      </div>
+
+                      <div style="margin-left: 15px">
+                        <div class="form-group">
+                          <label for="FormControlFile1">Masukan foto anda</label>
+                          <input type="file" class="form-control-file" id="FormControlFile1">
+                        </div>
+                      </div>
+
+                      <div style="margin-left: 15px">
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck1">
+                          <label class="custom-control-label" for="customCheck1">Apakah data anda sudah benar?</label>
+                        </div>
+                      </div>
+
+                      <br>
+                      <div style="margin-left: 15px">
+                        <button type="submit" class="btn btn-primary">
+                          Submit
+                        </button>
+                      </div>
+                      <br>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
